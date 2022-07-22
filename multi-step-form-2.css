@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+    margin-top: 2em;
+    font-size: 36px;
+}
+label {
+    display: block;
+    margin: 1em 0;
+}
+.container {
+    height: 520px;
+    background-color: whitesmoke;
+    padding-top: 20px;
+}
+.input-container {
+    width: 90%;
+    margin: auto;
+}
+input {
+    width: 100%;
+    margin: auto;
+    margin: 1em 0;
+    height: 3.5em;
+    border-radius: 0;
+    border: solid 1px darkgrey;
+    background-color: white;
+}
+.pagination {
+    height: 25px;
+    width: 5em;
+    margin: auto;
+    clear: right;
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: lightgray;
+}
+.btn-container {
+    float: right;
+    margin: 1em 0;
+    margin-right: 5em;
+}
+button {
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 0;
+    background-color: seagreen;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.prev {
+    background-color: lightgrey;
+}
+.prev:hover {
+    background-color: gainsboro;
+}
+.next:hover, .submit:hover {
+    background-color: mediumseagreen;
+}
+@media only screen and (max-width: 800px) {
+    .btn-container {
+        width: 250px;
+        float: none;
+        display: inline-block;
+        margin-left: 30%;
+    }
+}

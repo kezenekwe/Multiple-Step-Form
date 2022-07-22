@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-step Form</title>
+    <link rel="stylesheet" href="multi-step-form-2.css">
+</head>
+<body>
+    <form action="" class="container" onsubmit="return false">
+        <h1>Register:</h1>
+        <div class="contents">
+            <!-- list of user inputs -->
+            <div class="input-container">
+                <label for="" class="label">Name:</label>
+                <input type="text" placeholder="First name..." class="fname">
+                <input type="text" placeholder="Last name..." class="lname">
+                <input type="text" placeholder="Email..." class="email">
+                <input type="text" placeholder="Phone..." class="phone">
+                <input type="text" placeholder="dd..." class="day">
+                <input type="text" placeholder="mm..." class="month">
+                <input type="text" placeholder="yyyy.." class="year">
+                <input type="text" placeholder="Username..." class="username">
+                <input type="text" placeholder="Password..." class="password"> 
+            </div>
+        </div>
+        <!-- buttons -->
+        <div class="btn-container">
+            <button class="prev btn">Prev</button>
+            <button class="next btn">Next</button>
+            <button class="submit btn">Submit</button>
+        </div>
+        <!-- to indicate which steps are completed -->
+        <div class="pagination">
+            <span class="dot one"></span>
+            <span class="dot two"></span>
+            <span class="dot three"></span>
+            <span class="dot four"></span>
+        </div>
+    </form>
+<script src="multi-step-form-2.js"></script>
+</body>
+</html>
